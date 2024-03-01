@@ -48,6 +48,13 @@ volumio plugin install
 cd /home/volumio/volumio-plugins-sources/touch_display
 volumio plugin install
 
+cd /home/volumio/
+wget https://github.com/xontab/chrome-virtual-keyboard/archive/refs/tags/v1.11.3.tar.gz
+tar -xvzf v1.11.3.tar.gz
+rm -f v1.11.3.tar.gz
+sudo sed -i 's/http:\/\/localhost:3000.*\?$/http:\/\/localhost:3000 --load-extension=\/home\/volumio\/chrome-virtual-keyboard-1.11.3/'  /opt/volumiokiosk.sh
+sudo systemctl restart volumio-kiosk
+
 echo "Done"
 
 
