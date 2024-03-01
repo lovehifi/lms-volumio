@@ -21,17 +21,5 @@ cd /home/volumio/volumio-plugins-sources/lms
 volumio plugin install
 mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
 
-#cd /tmp
-#wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb
-#sudo service logitechmediaserver stop
-#sudo dpkg -i /tmp/logitechmediaserver_8.5.0~1709149164_all.deb
-#sudo chown -R volumio:volumio /var/lib/squeezeboxserver
-#sudo rm -rf /etc/systemd/system/logitechmediaserver.service
-#sudo ln -fs /data/plugins/music_service/lms/unit/logitechmediaserver.service /etc/systemd/system/logitechmediaserver.service
-#sudo chmod 744 -R /var/lib/squeezeboxserver
-#sudo systemctl daemon-reload
-#sudo service logitechmediaserver restart
-#echo "Install LMS done"
-
 cd /home/volumio/volumio-plugins-sources/squeezelite_mc
 volumio plugin install
