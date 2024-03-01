@@ -12,4 +12,5 @@ sudo rm -rf /etc/systemd/system/logitechmediaserver.service
 sudo ln -fs /data/plugins/music_service/lms/unit/logitechmediaserver.service /etc/systemd/system/logitechmediaserver.service
 sudo chmod 744 -R /var/lib/squeezeboxserver
 sudo systemctl daemon-reload
+sudo service logitechmediaserver restart
 echo "Done"
