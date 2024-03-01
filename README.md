@@ -9,8 +9,8 @@ cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/inst
 ### 2. LMS
 
 - http://volumio:9000
-- Setting -> Manager Plugin -> Active the plugin Material Skin
-- Setting -> Interface -> choose Material Skin
+- Settings -> Manage Plugins -> Active the plugin Material Skin
+- Settings -> Interface -> choose Material Skin
 
 ### 3. Create menu VOLUMIO in LMS
 ```
