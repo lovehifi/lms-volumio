@@ -3,9 +3,11 @@
 ```
 cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/install.sh && sudo chmod -R 755 /tmp/install.sh && ./install.sh
 ```
+- Enable plugin LMS on Volumio
+
 
 ### 2. LMS
-- Enable plugin LMS on Volumio
+
 - http://volumio:9000
 - Setting -> Manager Plugin -> Active the plugin Material Skin
 - Setting -> Interface -> choose Material Skin
