@@ -48,9 +48,6 @@ volumio plugin install
 cd /home/volumio/volumio-plugins-sources/touch_display
 volumio plugin install
 
-cd /home/volumio/volumio-plugins-sources/touch_display
-volumio plugin install
-
 echo "Done"
 
 
