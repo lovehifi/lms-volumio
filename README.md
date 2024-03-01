@@ -3,7 +3,7 @@
 ```
 cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/install.sh && sudo chmod -R 755 /tmp/install.sh && ./install.sh
 ```
-- Enable plugin LMS on Volumio
+- Enable plugin LMS and SQ MC on Volumio
 
 
 ### 2. LMS
