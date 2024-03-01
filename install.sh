@@ -19,6 +19,7 @@ awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb;
 
 cd /home/volumio/volumio-plugins-sources/lms
 volumio plugin install
+mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
 
 #cd /tmp
 #wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb
@@ -31,6 +32,6 @@ volumio plugin install
 #sudo systemctl daemon-reload
 #sudo service logitechmediaserver restart
 #echo "Install LMS done"
-mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
+
 cd /home/volumio/volumio-plugins-sources/squeezelite_mc
 volumio plugin install
