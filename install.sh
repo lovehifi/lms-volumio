@@ -31,6 +31,6 @@ volumio plugin install
 #sudo systemctl daemon-reload
 #sudo service logitechmediaserver restart
 #echo "Install LMS done"
-
+mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
 cd /home/volumio/volumio-plugins-sources/squeezelite_mc
 volumio plugin install
