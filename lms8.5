@@ -1,0 +1,13 @@
+#!/bin/bash
+# cd /tmp && wget https://raw.githubusercontent.com/lovehifi/addraudio/main/lms8.5 && sudo chmod -R 755 /tmp/lms8.5 && ./lms8.5
+
+echo "Install LMS 8.5 to Volumio"
+sudo service logitechmediaserver stop
+wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb
+dpkg -i logitechmediaserver_8.5.0~1709149164_all.deb
+chown -R volumio:volumio /var/lib/squeezeboxserver
+rm -rf /etc/systemd/system/logitechmediaserver.service
+ln -fs /data/plugins/music_service/lms/unit/logitechmediaserver.service /etc/systemd/system/logitechmediaserver.service
+chmod 744 -R /var/lib/squeezeboxserver
+sudo systemctl daemon-reload
+echo "Done"
