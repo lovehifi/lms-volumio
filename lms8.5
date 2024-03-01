@@ -3,8 +3,9 @@
 
 echo "Install LMS 8.5 to Volumio"
 sudo service logitechmediaserver stop
+cd /tmp
 wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb
-dpkg -i logitechmediaserver_8.5.0~1709149164_all.deb
+dpkg -i /tmp/logitechmediaserver_8.5.0~1709149164_all.deb
 chown -R volumio:volumio /var/lib/squeezeboxserver
 rm -rf /etc/systemd/system/logitechmediaserver.service
 ln -fs /data/plugins/music_service/lms/unit/logitechmediaserver.service /etc/systemd/system/logitechmediaserver.service
