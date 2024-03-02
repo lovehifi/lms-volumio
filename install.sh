@@ -24,11 +24,11 @@ awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb;
 } 1' "$file_path" > temp_file && mv temp_file "$file_path"
 
 
-echo "Install LMS 8.5 to Volumio"
+echo "Install plugin LMS to Volumio"
 cd /home/volumio/volumio-plugins-sources/lms
 volumio plugin install
 mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
 
-echo "SQ MC to Volumio"
+echo "Install plugin SQ MC to Volumio"
 cd /home/volumio/volumio-plugins-sources/squeezelite_mc
 volumio plugin install
