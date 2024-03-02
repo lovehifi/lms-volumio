@@ -1,7 +1,7 @@
 # LMS - Volumio
 ## LMS/SQ, YouTube Music and PeppyMeter on Volumio
 
-You're a fan of LMS/SQ and wish to play both YouTube Music and have your LCD screen display PeppyMeter VU? You can achieve this by leveraging the LMS plugin, SQ MC plugin, and installing PeppyMeter from the Volumio forum.
+You're a fan of LMS/SQ (Logitech Media Server) and wish to play both YouTube Music and have your LCD screen display PeppyMeter VU? You can achieve this by leveraging the LMS plugin, SQ MC plugin, and installing PeppyMeter from the Volumio forum.
 
 ### Installation Steps:
 
