@@ -14,7 +14,7 @@ git clone https://github.com/volumio/volumio-plugins-sources.git
 #} 1' "$file_path" > temp_file && mv temp_file "$file_path"
 #file_path="/home/volumio/volumio-plugins-sources/lms/install.sh" && awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb; do dpkg -i "\$f"; done/ { print "cd /tmp"; print "apt-get install libio-socket-ssl-perl lame unzip -y"; print "wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb"; print "dpkg -i /tmp/logitechmediaserver_8.5.0~1709149164_all.deb"; next } 1' "$file_path" > temp_file && mv temp_file "$file_path"
 
-echo "Choose Logitech Media Server version:"
+echo "Choose LMS version 8.4.0 Latest Release or 8.5.0 Development Build"
 select version in "8.4.0" "8.5.0"; do
     case $version in
         8.4.0) wget https://downloads.slimdevices.com/LogitechMediaServer_v8.4.0/logitechmediaserver_8.4.0_all.deb -O /tmp/logitechmediaserver.deb; break;;
