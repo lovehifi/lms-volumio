@@ -14,7 +14,7 @@ You're a fan of LMS/SQ (Logitech Media Server) and wish to play both YouTube Mus
 3. **PeppyMeter Setup:**
    If you want to integrate PeppyMeter, follow the instructions provided in the dedicated guide on the Volumio forum: [PeppyMeter Installation Guide](https://community.volumio.com/t/project-with-peppymeter-screensaver-plugin-for-volumio-v2-9xx-and-3-0xx-buster/45862/2644).
 
-4. **Install plugin YouTube Music (Volumio)**
+4. **Install plugin YouTube Music (from Volumio)**
 
 Now you're all set to enjoy a combination of LMS, SQ, YouTube Music, and PeppyMeter on your Volumio system!
 >
