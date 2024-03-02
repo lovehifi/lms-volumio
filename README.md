@@ -1,4 +1,23 @@
 # LMS - Volumio
+## Enjoy LMS/SQ with YouTube Music and PeppyMeter on Volumio
+
+If you're a fan of LMS/SQ and wish to play both YouTube Music and have your LCD screen display PeppyMeter animations, you're in luck! You can achieve this by leveraging the LMS plugin, SQ MC plugin, and installing PeppyMeter from the Volumio forum.
+
+### Installation Steps:
+
+1. **Flash Volumio:**
+   First, flash Volumio onto your SD card. You can find the Volumio image and instructions on their [official website](https://volumio.org/).
+
+2. **Install LMS and SQ MC Plugins:**
+   Follow the detailed installation guide for the LMS and SQ MC plugins [here](https://github.com/lovehifi/lms-volumio).
+
+3. **PeppyMeter Setup:**
+   If you want to integrate PeppyMeter, follow the instructions provided in the dedicated guide on the Volumio forum: [PeppyMeter Installation Guide](https://community.volumio.com/t/project-with-peppymeter-screensaver-plugin-for-volumio-v2-9xx-and-3-0xx-buster/45862/2644).
+
+Now you're all set to enjoy a combination of LMS, SQ, YouTube Music, and PeppyMeter on your Volumio system!
+>
+--------------------------------------------
+
 ### 1. Install plugin Logitech Media Server (8.4 or 8.5) and plugin Squeezelite MC
 8.4.0 (Latest Release) - 8.5.0 (Development Build) 
 ```
