@@ -1,5 +1,5 @@
 # LMS - Volumio
-### 1. Install plugin LMS 8.4 or 8.5 and plugin SQ MC
+### 1. Install plugin Logitech Media Server (8.4 or 8.5) and plugin Squeezelite MC
 8.4.0 (Latest Release) - 8.5.0 (Development Build) 
 ```
 cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/install.sh && sudo chmod -R 755 /tmp/install.sh && ./install.sh
