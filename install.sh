@@ -10,7 +10,7 @@ echo "Choose LMS version 8.4.0 Latest Release or 8.5.0 Development Build"
 select version in "8.4.0" "8.5.0"; do
     case $version in
         8.4.0) wget https://downloads.slimdevices.com/LogitechMediaServer_v8.4.0/logitechmediaserver_8.4.0_all.deb -O /tmp/logitechmediaserver.deb; break;;
-        8.5.0) wget https://downloads.slimdevices.com/LogitechMediaServer_v8.5.0/logitechmediaserver_8.5.0_all.deb -O /tmp/logitechmediaserver.deb; break;;
+        8.5.0) wget https://downloads.lms-community.org/LogitechMediaServer_v8.5.1/logitechmediaserver_8.5.1_all.deb -O /tmp/logitechmediaserver.deb; break;;
         *) echo "Invalid option";;
     esac
 done
