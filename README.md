@@ -38,6 +38,9 @@ cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/inst
 
 ### 3. Create menu VOLUMIO in LMS
 ```
+mkdir -p /var/lib/squeezeboxserver/prefs/material-skin
+```
+```
 echo '{"system":[{"title":"Volumio","iframe":"http://volumio/","locked":true,"icon":"link","toolbar":{"title":"Volumio \u2022 $NAME"}}]}' | tee /var/lib/squeezeboxserver/prefs/material-skin/actions.json
 ```
 
