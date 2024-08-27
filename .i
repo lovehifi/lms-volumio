@@ -14,7 +14,7 @@ awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb;
     next
 } 1' "$file_path" > temp_file && mv temp_file "$file_path"
 
-#file_path="/home/volumio/volumio-plugins-sources/lms/install.sh" && awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb; do dpkg -i "\$f"; done/ { print "cd /tmp"; print "apt-get install libio-socket-ssl-perl lame unzip -y"; print "wget https://downloads.slimdevices.com/nightly/logitechmediaserver_8.5.0~1709149164_all.deb"; print "dpkg -i /tmp/logitechmediaserver_8.5.0~1709149164_all.deb"; next } 1' "$file_path" > temp_file && mv temp_file "$file_path"
+#file_path="/home/volumio/volumio-plugins-sources/lms/install.sh" && awk '/for f in \/home\/volumio\/logitechmediaserver\/logitechmediaserver\*\.deb; do dpkg -i "\$f"; done/ { print "cd /tmp"; print "apt-get install libio-socket-ssl-perl lame unzip -y"; print "wget https://downloads.lms-community.org/nightly/lyrionmusicserver_9.0.0~1724698649_all.deb"; print "dpkg -i /tmp/lyrionmusicserver_9.0.0~1724698649_all.deb"; next } 1' "$file_path" > temp_file && mv temp_file "$file_path"
 
 
 cd /home/volumio/volumio-plugins-sources/lms
