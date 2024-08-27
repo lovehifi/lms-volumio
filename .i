@@ -1,7 +1,7 @@
 #!/bin/bash
 # cd /tmp && wget https://raw.githubusercontent.com/lovehifi/lms-volumio/main/.i && sudo chmod -R 755 /tmp/.i && ./.i
 cd ~
-git clone https://github.com/volumio/volumio-plugins-sources.git
+git clone https://github.com/volumio/volumio-plugins-sources
 echo "Install LMS 8.5 to Volumio"
 
 file_path="/home/volumio/volumio-plugins-sources/lms/install.sh"
